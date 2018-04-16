@@ -1,0 +1,45 @@
+@media only screen and (max-width: 750px) {
+    h2 {
+        font-size: 1.5rem!important;
+    }
+    .container {
+        padding-top: 15vh!important;
+    }
+}
+
+h2 {
+    font-size: 3rem!important;
+}
+
+body {
+    background-image: url("bgimg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.jumbotron {
+    padding: 2% !important;
+}
+
+.btn {
+    margin-top: -2%;
+    padding: 1% 2% !important;
+}
+
+.panel-default {
+    padding: 0 !important;
+    margin-left: 2% !important;
+}
+
+.panel-body {
+    height: 6vh;
+    overflow: scroll;
+}
+
+.container {
+    padding-top: 5vh!important;
+}

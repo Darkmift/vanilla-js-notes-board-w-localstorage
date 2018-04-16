@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>todo-list</title>
+  <link rel="shortcut icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Sticky_Notes.png" />
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"/> -->
+  <link rel="stylesheet" type="text/css" href="style2.css" />
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="tile container">
+    <div class="row">
+
+      <form class="jumbotron col-xs-6  col-xs-offset-1 content-toDo form-group">
+        <h2>My Stack Board</h2>
+        <div class="col-10">
+          <label for="textarea">Remind me...</label>
+          <textarea class="form-control" name="textarea" id="input-toDos" cols="20" rows="4" placeholder="Write down your reminder here... " maxlength="200" minlength="10" required="required">Random Test #
+                        </textarea>
+        </div>
+        <div class="col-10">
+          <br>
+          <label>type your date</label>
+          <input class="form-control" type="date" name="date" required="required">
+        </div>
+        <div class="col-12" id="valid_Alert"></div>
+        <div class="col-8 col-offset-1">
+          <br>
+          <input class="btn btn-default btn-block" type="submit" name="submit_btn" value="ADD">
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="jumbotron col-xs-10 col-xs-offset-1 list-reminder-note"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script2.js"></script>
+</body>
+
+</html>
